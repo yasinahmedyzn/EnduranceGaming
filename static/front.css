@@ -31,3 +31,23 @@ h3{
    font-size: 70px;
    width: 50%;
 }
+.tips{
+    border: 5% 5% 5% 5%;
+    padding: 6% 6% 6% 6%;
+}
+.ink{
+
+background-image: linear-gradient(#FF2F97,#FF2F97);
+background-repeat: no-repeat;
+background-size: 0% 100%;
+background-position-x: right;
+
+transition: background-size 500ms;
+
+
+}
+.ink:hover{
+    background-size: 100% 100%;
+    background-position-x: left;
+
+}
