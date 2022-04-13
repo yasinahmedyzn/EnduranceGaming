@@ -1,0 +1,33 @@
+{
+  "name": "endurancegaming",
+  "version": "1.0.0",
+  "description": "blog site",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasinahmedyzn/EnduranceGaming.git"
+  },
+  "keywords": [
+    "blog",
+    "site",
+    "express",
+    "mongodb"
+  ],
+  "author": "yasin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yasinahmedyzn/EnduranceGaming/issues"
+  },
+  "homepage": "https://github.com/yasinahmedyzn/EnduranceGaming#readme",
+  "devDependencies": {
+    "axios": "^0.26.1",
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7"
+  }
+}
